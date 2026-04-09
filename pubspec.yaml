@@ -1,0 +1,26 @@
+name: easy_stock
+description: Application de gestion d'inventaire - Master 2 MICDA
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Firebase
+  firebase_core: ^2.27.0
+  cloud_firestore: ^4.15.0
+  # Animations
+  animate_do: ^3.3.4
+  # Icons
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

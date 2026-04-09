@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "929662936824",
+    "project_id": "easy-stock-micda-16001",
+    "storage_bucket": "easy-stock-micda-16001.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929662936824:android:7b7016cab7c66420debd0d",
+        "android_client_info": {
+          "package_name": "com.example.easy_stock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANm5sKqzpyXUAMelARPZtrNpldCbLNeOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
