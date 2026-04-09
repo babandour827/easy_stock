@@ -121,7 +121,7 @@ class _AddProductScreenState extends State<AddProductScreen> {
                 delay: const Duration(milliseconds: 150),
                 child: TextFormField(
                   controller: _nameController,
-                  decoration: _inputDecoration('Ex: Café Arabica', Icons.label),
+                  decoration: _inputDecoration('Ex: Café Touba', Icons.label),
                   validator: (val) =>
                       val == null || val.trim().isEmpty ? 'Champ obligatoire' : null,
                 ),
@@ -131,13 +131,13 @@ class _AddProductScreenState extends State<AddProductScreen> {
               // Champ Prix
               FadeInLeft(
                 delay: const Duration(milliseconds: 200),
-                child: _buildLabel('Prix unitaire (€)'),
+                child: _buildLabel('Prix unitaire (FCFA)'),
               ),
               FadeInLeft(
                 delay: const Duration(milliseconds: 250),
                 child: TextFormField(
                   controller: _priceController,
-                  decoration: _inputDecoration('Ex: 4.99', Icons.euro),
+                  decoration: _inputDecoration('Ex: 150', Icons.currency_exchange),
                   keyboardType:
                       const TextInputType.numberWithOptions(decimal: true),
                   inputFormatters: [

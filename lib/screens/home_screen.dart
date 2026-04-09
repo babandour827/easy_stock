@@ -193,7 +193,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     ),
                                     const SizedBox(height: 4),
                                     Text(
-                                      '${product.price.toStringAsFixed(2)} €',
+                                      '${product.price.toStringAsFixed(2)} FCFA',
                                       style: TextStyle(
                                           color: Colors.grey.shade600,
                                           fontSize: 13),
